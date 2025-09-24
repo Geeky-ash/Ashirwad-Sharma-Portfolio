@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Ashirwad Sharma - Applied Data Scientist & Full-Stack AI Developer",
   authors: [{ name: "Ashirwad Sharma" }],
   description: "Portfolio of Ashirwad Sharma, an AI Developer from Mumbai, India with expertise in NLP, LLMs, and intelligent systems.",
-  icons: "/Ashirwad Profile.jpeg",
+  icons: "/ashirwad-profile.jpeg",
   keywords: [
     "Ashirwad Sharma",
     "Portfolio of Ashirwad",

@@ -73,7 +73,7 @@ export default function HeroSection() {
                   clipPath: "polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)"
                 }}
               >
-                Talagana Rajesh
+                Ashirwad Sharma
               </span>
             </p>
             
@@ -130,14 +130,14 @@ export default function HeroSection() {
 
           {/* Email */}
           <a
-            href="mailto:talaganarajesh@gmail.com"
+            href="mailto:ashirwad.020105@gmail.com"
             className="flex items-center z-10 justify-center gap-1.5 sm:gap-2 text-center w-full sm:w-auto max-w-xs sm:max-w-none"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0">
               <rect x="2" y="4" width="20" height="16" rx="2" stroke="gray" strokeWidth="2" />
               <path d="M2 7L9.95263 12.4526C10.5936 12.8747 11.3796 13.0964 12.1748 13.0964C12.97 13.0964 13.756 12.8747 14.397 12.4526L22 7" stroke="gray" strokeWidth="2" />
             </svg>
-            <span className="text-zinc-400 hover:text-purple-500 transition-all duration-300 text-xs sm:text-sm md:text-base lg:text-lg truncate">talaganarajesh@gmail.com</span>
+            <span className="text-zinc-400 hover:text-purple-500 transition-all duration-300 text-xs sm:text-sm md:text-base lg:text-lg truncate">ashirwad.020105@gmail.com</span>
           </a>
         </motion.div>
       </div>
