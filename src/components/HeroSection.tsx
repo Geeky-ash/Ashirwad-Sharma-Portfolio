@@ -6,7 +6,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 import { AnimatedShinyText } from "@/components/magicui/animated-shiny-text";
-import myPhoto from "/public/talaganaRajesh.jpg";
+// 1. Updated the image import to your profile picture
+import myPhoto from "/public/ashirwad-profile.jpeg"; 
 
 export default function HeroSection() {
   return (
@@ -81,7 +82,8 @@ export default function HeroSection() {
             <div className="group block md:block cursor-pointer h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-14 lg:w-14 rounded-full overflow-hidden border-2 border-white/20 my-1 sm:my-2 md:my-0">
               <Image
                 src={myPhoto}
-                alt="Talagana Rajesh"
+                // 2. Updated alt text
+                alt="Ashirwad Sharma"
                 width={56}
                 height={56}
                 className="h-full w-full object-cover"
@@ -90,11 +92,12 @@ export default function HeroSection() {
               {/* Hover Popup */}
               <div
                 className="absolute rounded-full -top-12 sm:-top-16 md:-top-20 lg:-top-16 left-1/2 ml-7 -translate-x-1/2 scale-0 group-hover:scale-100 transition-transform duration-300 ease-in-out
-                 border border-white/30 shadow-lg overflow-hidden z-10"
+                  border border-white/30 shadow-lg overflow-hidden z-10"
               >
                 <Image
                   src={myPhoto}
-                  alt="Talagana Rajesh"
+                  // 3. Updated alt text here too
+                  alt="Ashirwad Sharma"
                   width={120}
                   height={120}
                   className="object-cover w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48"
