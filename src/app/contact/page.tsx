@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
 import emailjs from "@emailjs/browser"
-import { FaWhatsapp, FaInstagram, FaLinkedin, FaYoutube, FaTwitter, FaPhone, FaDiscord } from "react-icons/fa"
+import { FaInstagram, FaLinkedin, FaTwitter, FaPhone, FaDiscord } from "react-icons/fa"
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -71,21 +71,28 @@ export default function ContactPage() {
     {
       name: "Instagram",
       icon: FaInstagram,
-      href: "https://www.instagram.com/ig.ashh__", 
+      href: "https://www.instagram.com/ig.ashh__",
       color: "hover:text-pink-500",
       description: "Follow my journey"
     },
     {
       name: "X",
       icon: FaTwitter,
-      href: "https://linkedin.com/in/talaganaRajesh", 
+      href: "https://x.com/Kakashi46077413", // Corrected Link
       color: "hover:text-blue-500",
+      description: "Stay updated with my thoughts"
+    },
+    {
+      name: "LinkedIn",
+      icon: FaLinkedin,
+      href: "https://linkedin.com/in/ashirwad-sharma-91305329a", // Added LinkedIn
+      color: "hover:text-sky-500",
       description: "Professional network"
     },
     {
       name: "Discord",
       icon: FaDiscord,
-      href: "https://discord.com/channels/@me", 
+      href: "https://discordapp.com/users/geekyash", // Corrected Link
       color: "hover:text-purple-500",
       description: "Lets Connect on Discord"
     },
@@ -123,7 +130,7 @@ export default function ContactPage() {
 
                 {/* Phone Number */}
                 <div className="mb-6">
-                  <div 
+                  <div
                     onClick={handleWhatsAppClick}
                     className="flex items-center space-x-3 p-3 bg-[#0f0f0f] rounded-md hover:bg-[#2a2a2a] transition-all duration-300 cursor-pointer group"
                   >
@@ -147,7 +154,7 @@ export default function ContactPage() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: 0.1 * index }}
                       className="mb-3"
-                    > 
+                    >
                       <a
                         href={social.href}
                         target="_blank"
