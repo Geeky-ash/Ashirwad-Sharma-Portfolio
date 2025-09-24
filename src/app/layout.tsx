@@ -117,9 +117,9 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Ashirwad Sharma",
-              image: "https://talaganarajesh.vercel.app/talaganaRajesh.jpg",
+              image: "https://ashirwad-sharma-portfolio.vercel.app/Ashirwad_Profile.jpeg",
               jobTitle: "Website Developer",
-              url: "https://talaganarajesh.vercel.app/",
+              url: "https://ashirwad-sharma-portfolio.vercel.app/",
               sameAs: [
                 "https://www.linkedin.com/in/ashirwad-sharma-91305329a",
                 "https://github.com/Geeky-ash",
