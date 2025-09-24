@@ -109,7 +109,7 @@ export default function ContactPage() {
         >
           <h2 className="text-3xl font-bold sm:text-4xl mb-4">Get in Touch</h2>
           <p className="text-sm text-gray-400">
-            Feel free to reach out, I'll get back to you soon.
+            Feel free to reach out, I&apos;ll get back to you soon.
           </p>
         </motion.div>
 
@@ -123,7 +123,7 @@ export default function ContactPage() {
               className="w-80"
             >
               <div className="bg-zinc-950 border border-zinc-900 rounded-md p-6 hover:border-zinc-800 transition-all duration-300 h-full flex flex-col">
-                <h3 className="text-xl font-semibold mb-4 text-yellow-400">Let's Connect</h3>
+                <h3 className="text-xl font-semibold mb-4 text-yellow-400">Let&apos;s Connect</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed text-sm">
                   Ready to start your project? Reach out through any of these channels.
                 </p>
