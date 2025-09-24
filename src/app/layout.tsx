@@ -117,7 +117,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Ashirwad Sharma",
-              image: "https://ashirwad-sharma-portfolio.vercel.app/Ashirwad_Profile.jpeg",
+              image: "https://ashirwad-sharma-portfolio.vercel.app/ashirwad-profile.jpeg",
               jobTitle: "Website Developer",
               url: "https://ashirwad-sharma-portfolio.vercel.app/",
               sameAs: [

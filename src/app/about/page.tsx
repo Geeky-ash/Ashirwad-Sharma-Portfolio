@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
 // Import social icons
-import profileImage from '/public/Ashirwad Profile.jpeg';
+import profileImage from '/public/ashirwad-profile.jpeg';
 
 interface TimelineItem {
   id: number;
