@@ -171,11 +171,11 @@ export default function PortfolioGrid() {
           title="Let's work together"
           description="on your next project"
           className="md:col-span-4 h-64"
-          email="talaganarajesh@gmail.com"
+          email="ashirwad.020105@gmail.com"
           background={
             <div className="flex justify-center items-center mt-4">
               <div className="h-16 w-16 rounded-full bg-purple-700 flex items-center justify-center">
-                <span className="text-white font-bold text-xl">TR</span>
+                <span className="text-white font-bold text-xl">AS</span>
               </div>
             </div>
           }
