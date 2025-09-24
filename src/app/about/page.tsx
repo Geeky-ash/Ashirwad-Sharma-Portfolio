@@ -4,10 +4,10 @@ import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 // Import social icons
-import profileImage from '/public/talaganaRajesh.jpg'; // Replace with your actual image path
+import profileImage from '/public/Ashirwad Profile.jpeg';
 
 interface TimelineItem {
   id: number;
@@ -29,51 +29,50 @@ export default function AboutPage() {
   const timelineItems: TimelineItem[] = [
     {
       id: 1,
-      date: "AUG 2023 - PRESENT",
-      title: "Full-Stack Developer",
-      company: "Freelance & Personal Projects",
-      location: "Berhampur, Odisha, India",
-      remote: true,
-      description: "As a passionate web developer, I specialize in creating responsive, accessible, and performance-optimized websites. My journey into full-stack development allows me to deliver impactful and real-world solutions. My focus is on mastering modern web technologies while making valuable contributions to various freelance and personal projects.",
+      date: "2023 - 2027",
+      title: "B.Tech in Computer Engineering",
+      company: "Sandip Institute of Technology & Research Centre",
+      location: "Nashik, India",
+      remote: false,
+      description: "Pursuing a comprehensive B.Tech degree with a focus on core computer engineering principles, data structures, and algorithms. Actively participating in competitive programming and technical events to build a strong foundational knowledge.",
       achievements: [
-        "Developed 'GetMaterial' – a dynamic, user-driven notes-sharing platform for Nist students. The platform has gained popularity with over 120 notes uploaded within the first week of launch, promoting collaboration and knowledge sharing.",
-        "Built 'Lemon Studio' – a creative portfolio website for a dubai based photography studio. The platform showcases services, previous work, and provides a sleek, professional user experience, leveraging modern design principles and technologies.",
-        "Created 'AgroVision' – an AI-powered crop disease detection platform that connects farmers with actionable insights. Using Python for backend AI modeling and React for the frontend, this platform serves as a valuable tool for agriculture, empowering users to detect diseases and take preventive actions.",
-        "Developed a platform allowing users to engage in anonymous chats, featuring real-time messaging and AI-powered replies for dynamic conversations. The platform supports threaded discussions for better organization and includes a safe moderation system to ensure healthy interactions. Additionally, Cloudflare integration enhances security and optimizes platform performance.",
-        "Developed a website for Web Cros, an agency offering services like website development and SEO. The site showcases their services and projects, with an intuitive interface for easy client communication, built using modern JavaScript frameworks for performance and scalability.",
-        "Utilized cutting-edge web technologies such as React, TypeScript, Next.js, Tailwind CSS, and Vercel to build modern, scalable, and responsive web applications.",
+        "Achieved an SGPA of 8.6 in Semester 1, 9.2 in Semester 2, and 8.6 in Semester 3.",
+        "Winner of the college-level DSA Coding Competition, demonstrating strong problem-solving skills.",
+        "Ranked as a Finalist (Top 6) in the Tech Horizon Codefest.",
       ],
-      skills: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Vercel", "HTML", "CSS", "JavaScript"],
+      skills: ["C++", "Java", "Data Structures & Algorithms"],
     },
     {
       id: 2,
-      date: "JUN 2024 - PRESENT",
-      title: "Problem Solver - DSA Enthusiast",
-      company: "GeeksforGeeks",
-      location: "India",
+      date: "2023 - PRESENT",
+      title: "AI/ML Developer & Hackathon Enthusiast",
+      company: "Personal & Hackathon Projects",
+      location: "Mumbai, India",
       remote: true,
-      description: "I actively solve Data Structures and Algorithms (DSA) problems on GeeksforGeeks, utilizing Java and Python to enhance my problem-solving skills. This practice helps me build a strong foundation in coding, algorithm design, and data structures, which are crucial for technical interviews and real-world applications.",
+      description: "As an Applied Data Scientist and AI Developer, I have hands-on expertise in Natural Language Processing (NLP), Large Language Models (LLMs), and building intelligent systems from the ground up.",
       achievements: [
-        "Solved multiple DSA problems on GeeksforGeeks using Java and Python, focusing on topics such as arrays, linked lists, trees, dynamic programming, and graph algorithms.",
-        "Sharpened problem-solving skills by regularly participating in coding challenges and improving algorithmic efficiency to solve complex problems within time constraints.",
-        "Gained proficiency in optimizing code for better performance and memory utilization, ensuring that solutions are not only correct but also efficient."
+        "Winner at a Hackathon hosted at Sandip University.",
+        "Developed a memory-augmented Conversational AI Assistant using the Gemini Pro LLM, featuring Hinglish support and STT/TTS pipelines.",
+        "Built 'MediQueue', a Smart Hospital Assistant, which was a Hackathon Finalist. The project used ML for queue optimization and AI-driven inventory management.",
+        "Created a Hackathon-winning AI Donation Platform with ML-based fraud detection, real-time donation tracking, and transparency reports.",
+        "Engineered a Sign Language Translator that converts gestures to text using OpenCV, including real-time video support.",
       ],
-      skills: ["Java", "Python", "Data Structures", "Algorithms", "Problem Solving", "GeeksforGeeks"],
+      skills: ["Python", "OpenCV", "scikit-learn", "Transformers", "LangChain", "Google Cloud APIs", "AI/ML"],
     },
     {
       id: 3,
-      date: "JUL 2024",
-      title: "Computer Vision & Machine Learning Intern",
-      company: "NIST University, Berhampur",
-      location: "Berhampur, Odisha, India",
-      remote: false,
-      description: "Completed an internship in AI and computer vision with a focus on developing deep learning models for real-world applications. The project, centered around English alphabet detection, involved collaborating with a team to implement and optimize an AI-based solution using Python and machine learning techniques.",
+      date: "2023 - PRESENT",
+      title: "Full-Stack Developer",
+      company: "Personal Projects",
+      location: "Mumbai, India",
+      remote: true,
+      description: "Building robust and scalable full-stack applications with a focus on backend logic, database management, and seamless API integration. Passionate about creating efficient and secure server-side solutions.",
       achievements: [
-        "Led the development of the 'Predictions and Visualization' module, which enabled real-time predictions and visualized AI model performance through graphical representations.",
-        "Utilized Python, OpenCV, and machine learning libraries to build a custom alphabet detection model capable of recognizing and classifying handwritten characters.",
-        "Successfully presented the project to faculty, showcasing end-to-end model development, from data collection and preprocessing to model evaluation and deployment."
+        "Developed a full-stack Expense Manager application using the MERN stack.",
+        "The application features intelligent AI-based categorization and tagging of expenses to provide users with insightful analytics.",
+        "Implemented secure user authentication using JWT and built RESTful APIs for client-server communication.",
       ],
-      skills: ["Python", "Computer Vision", "OpenCV", "Machine Learning", "Google Colab"],
+      skills: ["JavaScript", "HTML", "CSS", "Node.js", "Express", "MongoDB", "REST APIs", "JWT Auth"],
     }
   ];
   
@@ -209,7 +208,7 @@ export default function AboutPage() {
               <div className="rounded-xl overflow-hidden aspect-square">
                 <Image
                   src={profileImage}
-                  alt="Talagana Rajesh"
+                  alt="Ashirwad Sharma"
                   width={400}
                   height={400}
                   className="w-full h-full object-cover"
@@ -225,27 +224,24 @@ export default function AboutPage() {
 
           <div className="lg:w-2/3 mt-6 md:mt-0">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 text-center lg:text-left">
-              Hi there! I&apos;m <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-500">Rajesh</span>
+              Hi there! I&apos;m <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-500">Ashirwad</span>
             </h1>
 
             <div className="space-y-3 md:space-y-4 text-gray-300 text-sm md:text-base">
-              <p>I&apos;m Talagana Rajesh, a passionate web developer dedicated to building impactful and user-friendly websites. I specialize in React, Next.js and modern frontend technologies, and I&apos;m constantly exploring AI and machine learning to integrate into web solutions.</p>
+              <p>I&apos;m Ashirwad Sharma, an Applied Data Scientist & Full-Stack AI Developer with hands-on expertise in NLP, LLMs, and intelligent systems. I build AI products with features like memory, multilingual support, and real-time interaction.</p>
 
-              <p>When I&apos;m not coding, I&apos;m brainstorming new ideas, learning emerging tech, or helping others grow. I believe in consistency, curiosity, and leveling up every day.</p>
+              <p>I thrive in competitive environments and have a proven track record as a 2x Hackathon winner. My work is backed by strong fundamentals in Data Structures & Algorithms and backend development.</p>
 
-              <p>I wake up each day excited to build something meaningful and work towards becoming a top developer!</p>
+              <p>I am passionate about leveraging technology to solve real-world problems and continuously seek to innovate and grow in the field of AI and software development.</p>
 
               <div className="flex justify-center lg:justify-start gap-4 pt-2">
-                <Link href="https://www.linkedin.com/in/talaganaRajesh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <Link href="https://linkedin.com/in/ashirwad-sharma-91305329a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="w-5 h-5 md:w-6 md:h-6 text-gray-400 hover:text-white transition-colors" />
                 </Link>
-                <Link href="https://github.com/talaganaRajesh" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Link href="https://github.com/Geeky-ash" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="w-5 h-5 md:w-6 md:h-6 text-gray-400 hover:text-white transition-colors" />
                 </Link>
-                <Link href="https://x.com/Rajeshtalagana" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <Twitter className="w-5 h-5 md:w-6 md:h-6 text-gray-400 hover:text-white transition-colors" />
-                </Link>
-                <Link href="mailto:talaganarajesh@gmail.com" aria-label="Email">
+                <Link href="mailto:ashirwad.020105@gmail.com" aria-label="Email">
                   <Mail className="w-5 h-5 md:w-6 md:h-6 text-gray-400 hover:text-white transition-colors" />
                 </Link>
               </div>

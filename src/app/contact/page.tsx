@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import * as z from "zod"
 import emailjs from "@emailjs/browser"
-import { FaWhatsapp, FaInstagram, FaLinkedin, FaYoutube, FaTwitter, FaPhone } from "react-icons/fa"
+import { FaWhatsapp, FaInstagram, FaLinkedin, FaYoutube, FaTwitter, FaPhone, FaDiscord } from "react-icons/fa"
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -61,7 +61,7 @@ export default function ContactPage() {
   }
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+919692544587"
+    const phoneNumber = "+918779677738"
     const message = "Hi! I'm coming from your portfolio website. I need website services."
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
@@ -71,23 +71,23 @@ export default function ContactPage() {
     {
       name: "Instagram",
       icon: FaInstagram,
-      href: "https://www.instagram.com/talagana.rajesh", 
+      href: "https://www.instagram.com/ig.ashh__", 
       color: "hover:text-pink-500",
       description: "Follow my journey"
     },
     {
-      name: "LinkedIn",
-      icon: FaLinkedin,
+      name: "X",
+      icon: FaTwitter,
       href: "https://linkedin.com/in/talaganaRajesh", 
       color: "hover:text-blue-500",
       description: "Professional network"
     },
     {
-      name: "YouTube",
-      icon: FaYoutube,
-      href: "https://www.youtube.com/@TalaganaRajeshYT", 
-      color: "hover:text-red-500",
-      description: "Watch my content"
+      name: "Discord",
+      icon: FaDiscord,
+      href: "https://discord.com/channels/@me", 
+      color: "hover:text-purple-500",
+      description: "Lets Connect on Discord"
     },
   ]
 
@@ -132,7 +132,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-medium text-white text-sm">WhatsApp</p>
-                      <p className="text-gray-400 text-xs">+91 9692544587</p>
+                      <p className="text-gray-400 text-xs">+91 8779677738</p>
                     </div>
                   </div>
                 </div>
