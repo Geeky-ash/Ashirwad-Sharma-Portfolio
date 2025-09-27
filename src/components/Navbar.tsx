@@ -82,7 +82,7 @@ const NavBar: React.FC<NavBarProps> = ({ className }) => {
         {/* Logo */}
         <Link href="/" onClick={handleLogoClick} className="text-2xl w-24 font-bold">
           <div className="flex items-center">
-            <span className="text-white">TR</span>
+            <span className="text-white">AS</span>
           </div>
         </Link>
 
