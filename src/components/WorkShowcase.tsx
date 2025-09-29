@@ -11,10 +11,14 @@ import GetMaterialImage from '/public/assets/getmaterial.png';
 import LemonStudioImage from '/public/assets/lemonstudio.png';
 import OpenRoomImage from '/public/assets/openroom-image.png';
 import AgroVisionImage from '/public/assets/agrovision.png';
-import PortfolioImage from '/public/assets/portfolio.png';
+import PortfolioImage from '/public/assets/PortfolioImage.png';
 import WebCrosImage from '/public/assets/web-cros.png';
 import DealsOfAgroImage from '/public/assets/DealsOfAgroImage.png';
 import HeyDropImage from '/public/assets/HeyDrop.png';
+import luxuryhomez from '/public/assets/luxuryhomez.png'; 
+import Smartlearning from '/public/assets/Smartlearning.png'; 
+import Drappi from '/public/assets/drappi.png'; 
+import Aidlinker from '/public/assets/Aidlinker.png'; 
 
 import cloudflare from '/public/assets/cloudflare.png';
 import emailjs from '/public/assets/emailjs.jpeg';
@@ -33,6 +37,11 @@ import shadcn from '/public/assets/shadcn.png';
 import framer from '/public/assets/framermotion.png';
 import upstash from '/public/assets/upstash.png';
 import uploadthing from '/public/assets/uploadthing.png';
+import php from '/public/assets/php.webp';
+import bootstrap from '/public/assets/bootstrap.webp';
+import laravel from '/public/assets/laravel.webp';
+import MongoDB from '/public/assets/mongodb.png';
+import Vite from '/public/assets/Vite.js.png';
 
 import { ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -62,54 +71,53 @@ export default function WorkShowcaseSnapping() {
   const projects: Project[] = [
     {
       id: 1,
-      link: "https://getmaterial.vercel.app/",
-      title: "GetMaterial",
-      tagline: "A collaborative note-sharing platform built for students, by students.",
-      description: "Developed a centralized hub where students can upload, discover, and access academic notes, fostering a peer-driven learning ecosystem.",
+      link: "https://luxuryhomez.com/",
+      title: "Luxury Homez",
+      tagline: "Your dedicated partner in finding curated, high-end residential properties.",
+      description: "A boutique real estate brokerage exclusively dealing in luxury residential spaces. The platform features a handpicked portfolio of the finest properties in prime locations like Delhi, Noida, and Gurugram, backed by in-depth market knowledge and discreet, personalized service for elite clientele.",
       techStack: [
-        { name: "React", icon: react },
-        { name: "Node.js", icon: nodejs },
+        { name: "Laravel", icon: laravel },
+        { name: "PHP", icon: php },
         { name: "Firebase", icon: firebase },
-        { name: "Express.js", icon: expressjs },
+        { name: "Vite", icon: Vite },
         { name: "Cloudflare", icon: cloudflare },
-        { name: "Rest API", icon: restapi },
-        { name: "Email js", icon: emailjs },
-        { name: "Tailwind CSS", icon: tailwindcss }
+        { name: "Bootstrap", icon: bootstrap },
+        { name: "Email js", icon: emailjs },  
       ],
       features: [
-        "Notes sharing and uploading system for students",
-        "Used by 500+ users with 160+ notes within 2 weeks",
-        "Categorized and searchable content by subject and semester",
-        "User authentication and content moderation using Firebase",
-        "Real-time data sync and analytics",
-        "Responsive UI designed for student accessibility"
+        "Showcases exclusive real estate projects in desired locations",
+        "Detailed property listings including building, rooms, and price",
+        "Focus on prime North Indian locations like Delhi, Noida, and Gurugram",
+        "Cathedral to an elite clientele of business leaders and global investors",
+        "Ensures seamless and secure transactions from viewing to possession",
+        "Offers discreet, personalized service with absolute confidentiality"
       ],
-      image: GetMaterialImage,
+      image: luxuryhomez,
       accentColor: "bg-green-500",
-      bgGradient: "from-green-800 to-green-600"
+      bgGradient: "from-green-980 to-green-400"
     },
     {
   id: 2,
-  link: "https://heydrop.vercel.app/",
-  title: "HeyDrop",
-  tagline: "Share Anything Instantly – Files, Images, and Text with No Login.",
-  description: "HeyDrop is a seamless real-world web app that enables instant, login-free sharing of files, images, and messages via unique room links. Built for frictionless transfer across devices without installing any app or creating an account.",
+  link: "https://smart-learning-taupe.vercel.app/",
+  title: "Smartlearning",
+  tagline: "Visualize DSA concepts and get help from a chatbot that acts like your big brother.",
+  description: "Smartlearning is a web app for the tech community to learn Data Structures and Algorithms concepts with the help of visualizations. It also has a chatbot that acts like a big brother to help you with your doubts.",
   techStack: [
+    { name: "React", icon: react },
     { name: "Next.js", icon: nextjs },
     { name: "TypeScript", icon: typescript },
     { name: "Tailwind CSS", icon: tailwindcss },
     { name: "Upstash Redis", icon: upstash },
-    { name: "UploadThing", icon: uploadthing },
-    { name: "React", icon: react },
+    { name: "UploadThing", icon: uploadthing }
   ],
   features: [
-    "Instant file, image, and text sharing across devices",
-    "No login, sign-up, or installation required",
-    "Generate secure, sharable room links for temporary sessions",
-    "Real-time message syncing using Upstash Redis",
-    "Secure file handling and upload with UploadThing",
+    "Interactive visualizations for Data Structures and Algorithms",
+    "AI-powered interview prep bot to practice for tech roles",
+    "Quebee: Upload handwritten notes to generate quizzes and flashcards",
+    "A helpful chatbot that acts like a 'big brother' for guidance",
+    "Learn complex DSA concepts in an engaging, interactive way",
   ],
-  image: HeyDropImage, // Replace this with your imported image reference
+  image: Smartlearning, // Replace this with your imported image reference
   accentColor: "bg-orange-500",
   bgGradient: "from-zinc-950 to-orange-400"
 }
@@ -140,26 +148,28 @@ export default function WorkShowcaseSnapping() {
 
     {
   id: 4,
-  link: "https://dealsofagro.vercel.app/",
-  title: "DealsOfAgro",
-  tagline: "E-commerce website for selling agricultural machinery online.",
-  description: "Developed a full-fledged online marketplace for an agricultural machinery company during an internship. The platform allows sellers to list equipment and enables farmers to browse, explore, and purchase machinery with ease. Focused on user-friendly design, performance, and real-time database integration.",
+  link: "https://heydrop.vercel.app/",
+  title: "HeyDrop",
+  tagline: "Share Anything Instantly – Files, Images, and Text with No Login.",
+  description: "HeyDrop is a seamless real-world web app that enables instant, login-free sharing of files, images, and messages via unique room links. Built for frictionless transfer across devices without installing any app or creating an account.",
   techStack: [
     { name: "Next.js", icon: nextjs },
-    { name: "Tailwind CSS", icon: tailwindcss },
     { name: "TypeScript", icon: typescript },
-    { name: "Firebase", icon: firebase },
+    { name: "Tailwind CSS", icon: tailwindcss },
+    { name: "Upstash Redis", icon: upstash },
+    { name: "UploadThing", icon: uploadthing },
+    { name: "React", icon: react },
   ],
   features: [
-    "Product listing and detailed pages with real-time data from Firebase",
-    "Secure user authentication and dynamic routing with Next.js",
-    "Interactive and responsive UI tailored for farmers and sellers",
-    "Admin features for product management and inventory control",
-    "Designed UI prototypes using Figma before development"
+    "Instant file, image, and text sharing across devices",
+    "No login, sign-up, or installation required",
+    "Generate secure, sharable room links for temporary sessions",
+    "Real-time message syncing using Upstash Redis",
+    "Secure file handling and upload with UploadThing",
   ],
-  image: DealsOfAgroImage,
-  accentColor: "bg-green-600",
-  bgGradient: "from-green-700 to-lime-600"
+  image: HeyDropImage, // Replace this with your imported image reference
+  accentColor: "bg-orange-500",
+  bgGradient: "from-zinc-950 to-orange-400"
 }
 ,
 
@@ -167,55 +177,59 @@ export default function WorkShowcaseSnapping() {
 
     {
       id: 5,
-      link: "https://talaganarajesh.vercel.app/",
-      title: "Portfolio",
-      tagline: "Dynamic and interactive portfolio showcasing my work and skills.",
+      link: "https://drappi.in/",
+      title: "Drappi",
+      tagline: "Shop local, shop smart. Your favourite Faridpur fashion delivered within 3 hours.",
       description:
-        "Built a high-performance portfolio website to highlight my projects, technical skills, and web development journey, combineing modern UI design with smooth animations and a responsive layout",
+        "A premier B2B and B2C marketplace connecting customers with verified local cloth vendors in Faridpur. Drappi empowers local businesses to get online, offering premium quality products and unbeatable deals.",
       techStack: [
-        { name: "Next.js", icon: nextjs },
-        { name: "TypeScript", icon: typescript },
-        { name: "Framer Motion", icon: framer },
-        { name: "Tailwind CSS", icon: tailwindcss },
-        { name: "ShadCN UI", icon: shadcn }
-      ],
+    { name: "React", icon: react },
+    { name: "Node.js", icon: nodejs },
+    { name: "Express.js", icon: expressjs },
+    { name: "Firebase", icon: firebase },
+    { name: "TypeScript", icon: typescript },
+    { name: "Tailwind CSS", icon: tailwindcss }
+  ],
       features: [
-        "Smooth animations and transitions using Framer Motion",
-        "Interactive UI components with ShadCN and Tailwind CSS",
-        "Project showcase with detailed descriptions and tech stack",
-        "Fully responsive design optimized for all devices",
-        "Clean codebase using TypeScript for maintainability"
-      ],
-      image: PortfolioImage,
+    "Connects local cloth vendors in Faridpur to a wider online market",
+    "Guaranteed 3-hour delivery for clothes, footwear, and fashion items",
+    "Platform features only verified local businesses and trusted sellers",
+    "Regular mega sales with discounts up to 70% OFF",
+    "Empowers local businesses through a seamless B2B & B2C connection",
+    "Future goal to expand the platform for vendors all over India"
+  ],
+      image: Drappi,
       accentColor: "bg-cyan-500",
-      bgGradient: "from-cyan-800 to-cyan-600"
+      bgGradient: "from-cyan-950 to-cyan-300"
     },
 
     {
-      id: 6,
-      link: "https://oroom.vercel.app/",
-      title: "OpenRoom",
-      tagline: "Anonymous real-time chat with AI replies, threading, and safe moderation",
-      description: "Developed a platform allowing users to engage in anonymous chats, with real-time messaging, AI-powered responses, and secure, moderated threads for safe interactions.",
-      techStack: [
-        { name: "React", icon: react },
-        { name: "Gemini API", icon: gemini },
-        { name: "Node.js", icon: nodejs },
-        { name: "API", icon: restapi },
-        { name: "Firebase", icon: firebase },
-        { name: "Cloudflare", icon: cloudflare }
-      ],
-      features: [
-        "Anonymous chat system with real-time messaging",
-        "AI-driven replies for engaging conversations",
-        "Threaded discussions for better organization",
-        "Safe moderation system to ensure healthy interactions",
-        "Cloudflare integration for security and performance optimization"
-      ],
-      image: OpenRoomImage,
-      accentColor: "bg-blue-500",
-      bgGradient: "from-blue-950 to-blue-800"
-    },
+  id: 6,
+  link: "https://hospital-management-delta-one.vercel.app/",
+  title: "Aidlink",
+  tagline: "Smart hospital management with live queue tracking and resource monitoring.",
+  description: "Aidlink is an intelligent hospital management system that allows patients to view live queues and receive notifications before their turn, using an ML model to predict wait times. For hospital admins, it provides a live dashboard to monitor bed occupancy and manage medical instrument inventory with automated alerts.",
+  techStack: [
+    { name: "React", icon: react },
+    { name: "TypeScript", icon: typescript },
+    { name: "Tailwind CSS", icon: tailwindcss },
+    { name: "Node.js", icon: nodejs },
+    { name: "Express.js", icon: expressjs },
+    { name: "Python", icon: python },
+    { name: "Firebase", icon: firebase }
+  ],
+  features: [
+    "Live queue tracking for patients to reduce physical waiting time",
+    "ML-powered predictions for accurate patient turn notifications",
+    "Real-time dashboard for hospital admins to view bed allocation",
+    "Automated inventory management for medical instruments with alerts",
+    "Patients receive a notification 10 minutes before their appointment",
+    "Streamlines hospital operations and enhances patient experience"
+  ],
+  image: Aidlinker,
+  accentColor: "bg-teal-500",
+  bgGradient: "from-zinc-950 to-teal-400"
+},
 
     {
       id: 7,
@@ -245,26 +259,28 @@ export default function WorkShowcaseSnapping() {
 
     {
       id: 8,
-      link: "https://agrovision-sih.vercel.app/",
-      title: "AgroVision",
-      tagline: "AI-powered crop disease detection and farmer support platform.",
-      description: "Built a smart agricultural assistant that uses AI to detect crop diseases and provides actionable insights for farmers with a chatbot interface.",
+      link: "https://ashirwad-sharma-portfolio.vercel.app/",
+      title: "Portfolio",
+      tagline: "Dynamic and interactive portfolio showcasing my work and skills.",
+      description:
+        "Built a high-performance portfolio website to highlight my projects, technical skills, and web development journey, combineing modern UI design with smooth animations and a responsive layout",
       techStack: [
-        { name: "React", icon: react },
-        { name: "Python", icon: python },
+        { name: "Next.js", icon: nextjs },
+        { name: "TypeScript", icon: typescript },
+        { name: "Framer Motion", icon: framer },
         { name: "Tailwind CSS", icon: tailwindcss },
-        { name: "API", icon: restapi },
+        { name: "ShadCN UI", icon: shadcn }
       ],
       features: [
-        "Integrated AI model to detect crop diseases from images",
-        "Visual result display with prediction confidence",
-        "Chatbot assistant for farming queries and solutions",
-        "Backend APIs using Flask for prediction services",
-        "UI designed for farmers with simplified interaction"
+        "Smooth animations and transitions using Framer Motion",
+        "Interactive UI components with ShadCN and Tailwind CSS",
+        "Project showcase with detailed descriptions and tech stack",
+        "Fully responsive design optimized for all devices",
+        "Clean codebase using TypeScript for maintainability"
       ],
-      image: AgroVisionImage,
+      image: PortfolioImage,
       accentColor: "bg-purple-500",
-      bgGradient: "from-purple-900 to-purple-500"
+      bgGradient: "from-purple-960 to-purple-500"
     }
   ];
 
