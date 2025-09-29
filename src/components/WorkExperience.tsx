@@ -19,13 +19,13 @@ import Image from 'next/image';
 import type { StaticImageData } from 'next/image';
 
 // Logos
-import DOALogo from '/public/assets/DOA-whiteLogo.png';
+// import DOALogo from '/public/assets/DOA-whiteLogo.png';
 import FramttLogo from '/public/assets/framtt-logo.png'; 
 
 // Screenshots for DealsOfAgro only
-import ss3 from '/public/assets/DOA-ss1.png';
-import ss2 from '/public/assets/DOA-ss2.png';
-import ss1 from '/public/assets/DealsOfAgroImage.png';
+// import ss3 from '/public/assets/DOA-ss1.png';
+// import ss2 from '/public/assets/DOA-ss2.png';
+// import ss1 from '/public/assets/DealsOfAgroImage.png';
 
 interface WorkExperience {
   company: string;
@@ -41,33 +41,33 @@ interface WorkExperience {
 }
 
 const workData: WorkExperience[] = [
-  {
-    company: 'DealsOfAgro',
-    role: 'Full-Stack Developer',
-    duration: 'April 2025 - Present',
-    location: 'Odisha, India',
-    description: [
-      'Spearheading the development of an innovative e-commerce platform that revolutionizes how farmers access agricultural machinery across Odisha.',
-      'Architected and implemented a scalable, responsive web application using Next.js, TypeScript, and modern web technologies.',
-      'Designed intuitive user interfaces specifically tailored for the agricultural community, ensuring ease of use for farmers of all technical backgrounds.',
-      'Developed comprehensive backend systems handling product catalogs, secure transactions, user management, and dealer networks.',
-      'Integrated advanced search and filtering capabilities to help farmers find the right machinery for their specific needs.',
-      'Collaborated closely with stakeholders to align technical solutions with business objectives and user requirements.'
-    ],
-    logo: DOALogo,
-    screenshots: [ss1, ss2, ss3],
-    website: 'https://www.dealsofagro.com',
-    achievements: [
-      'Serving 30+ Districts across Odisha',
-      '500+ Agricultural Machinery Listed',
-      '100+ Active Dealers on Platform',
-      'Built from Scratch to Production'
-    ],
-    techStack: [
-      'Next.js', 'TypeScript', 'Tailwind CSS',
-      'Node.js', 'Firebase', 'Figma', 'Vercel'
-    ]
-  },
+  // {
+  //   company: 'DealsOfAgro',
+  //   role: 'Full-Stack Developer',
+  //   duration: 'April 2025 - Present',
+  //   location: 'Odisha, India',
+  //   description: [
+  //     'Spearheading the development of an innovative e-commerce platform that revolutionizes how farmers access agricultural machinery across Odisha.',
+  //     'Architected and implemented a scalable, responsive web application using Next.js, TypeScript, and modern web technologies.',
+  //     'Designed intuitive user interfaces specifically tailored for the agricultural community, ensuring ease of use for farmers of all technical backgrounds.',
+  //     'Developed comprehensive backend systems handling product catalogs, secure transactions, user management, and dealer networks.',
+  //     'Integrated advanced search and filtering capabilities to help farmers find the right machinery for their specific needs.',
+  //     'Collaborated closely with stakeholders to align technical solutions with business objectives and user requirements.'
+  //   ],
+  //   logo: DOALogo,
+  //   screenshots: [ss1, ss2, ss3],
+  //   website: 'https://www.dealsofagro.com',
+  //   achievements: [
+  //     'Serving 30+ Districts across Odisha',
+  //     '500+ Agricultural Machinery Listed',
+  //     '100+ Active Dealers on Platform',
+  //     'Built from Scratch to Production'
+  //   ],
+  //   techStack: [
+  //     'Next.js', 'TypeScript', 'Tailwind CSS',
+  //     'Node.js', 'Firebase', 'Figma', 'Vercel'
+  //   ]
+  // },
   {
     company: 'Framtt',
     role: 'Full-Stack Developer',

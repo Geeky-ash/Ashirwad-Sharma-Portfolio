@@ -56,28 +56,28 @@ const Footer: React.FC = () => {
                             <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Projects</h3>
                             <nav className="flex flex-col space-y-1 sm:space-y-2">
                                 <a
-                                    href="https://getmaterial.vercel.app"
+                                    href="https://luxuryhomez.com/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-400 hover:text-white transition-colors text-xs sm:text-base"
                                 >
-                                    GetMaterial
+                                    Luxury Homez
                                 </a>
                                 <a
-                                    href="https://oroom.vercel.app"
+                                    href="https://smart-learning-taupe.vercel.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-400 hover:text-white transition-colors text-xs sm:text-base"
                                 >
-                                    OpenRoom
+                                    Smartlearning
                                 </a>
                                 <a
-                                    href="https://sih-agrovision.vercel.app"
+                                    href="https://drappi.in/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-400 hover:text-white transition-colors text-xs sm:text-base"
                                 >
-                                    AgroVision
+                                    Drappi
                                 </a>
                                 <a
                                     href="https://lemonstudio.vercel.app"
