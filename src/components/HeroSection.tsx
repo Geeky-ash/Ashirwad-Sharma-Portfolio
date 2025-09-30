@@ -32,7 +32,7 @@ export default function HeroSection() {
             className="mb-4 sm:mb-6 md:mb-8 lg:mb-12 w-full px-1 sm:px-2 flex justify-center"
           >
             <a
-              href="https://heydrop.vercel.app/"
+              href="https://smart-learning-taupe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-3 sm:py-2 md:px-4 md:py-2 lg:px-5 lg:py-3 bg-black/40 backdrop-blur-md rounded-full border border-white/10 text-white/90 hover:bg-black/50 transition-colors text-xs sm:text-sm md:text-base lg:text-lg"
